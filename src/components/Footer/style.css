@@ -1,0 +1,8 @@
+/* START => Footer */
+footer {
+  background-color: var(--blackColor);
+}
+footer p {
+  color: #fff;
+}
+/* //END => Footer */

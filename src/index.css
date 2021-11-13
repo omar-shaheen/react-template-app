@@ -1,0 +1,168 @@
+@import 'https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&display=swap';
+
+@import 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap';
+
+
+:root {
+  --orangeColor: #ff7100;
+  --purpleLight: #7d00ff;
+  --roseColor: #e6017f;
+  --blackColor: #222;
+  --gradientBg: linear-gradient(90deg, rgba(255, 113, 0, 1) 1%, rgba(230, 1, 127, 1) 51%, rgba(125, 0, 255, 1) 100%);
+  --gradientTwo: linear-gradient(to right bottom, #ff7100, #ff4a3b, #ff1165, #ff0090, #eb00bb, #dd00c5, #cc00cf, #b700d9, #cd00c0, #db00a8, #e30092, #e6017f);
+}
+
+* {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+html,
+body {
+  font-family: 'Work Sans', sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+::selection {
+  background-color: var(--roseColor) !important;
+  color: #fff !important;
+}
+
+.lines-1,
+.lines-2,
+.lines-3,
+.lines-4,
+.lines-5,
+.lines-6,
+.lines-7,
+.lines-8,
+.lines-9,
+.lines-10,
+.lines-11,
+.lines-12,
+.lines-13,
+.lines-14,
+.lines-15 {
+  display: -webkit-box !important;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+.lines-1 {
+  -webkit-line-clamp: 1;
+}
+.lines-2 {
+  -webkit-line-clamp: 2;
+}
+.lines-3 {
+  -webkit-line-clamp: 3;
+}
+.lines-4 {
+  -webkit-line-clamp: 4;
+}
+.lines-5 {
+  -webkit-line-clamp: 5;
+}
+.lines-6 {
+  -webkit-line-clamp: 6;
+}
+.lines-7 {
+  -webkit-line-clamp: 7;
+}
+.lines-8 {
+  -webkit-line-clamp: 8;
+}
+.lines-9 {
+  -webkit-line-clamp: 9;
+}
+.lines-10 {
+  -webkit-line-clamp: 10;
+}
+.lines-11 {
+  -webkit-line-clamp: 11;
+}
+.lines-12 {
+  -webkit-line-clamp: 12;
+}
+.lines-13 {
+  -webkit-line-clamp: 13;
+}
+.lines-14 {
+  -webkit-line-clamp: 14;
+}
+.lines-15 {
+  -webkit-line-clamp: 15;
+}
+
+a,
+a:hover {
+  text-decoration: none !important;
+  transition: all .4s ease-in-out;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.banner-page {
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.banner-page::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: -1;
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5021506320224719) 50%, rgba(0,0,0,0) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5021506320224719) 50%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5021506320224719) 50%, rgba(0,0,0,0) 100%);
+
+}
+.banner-page .title {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+.banner-page strong,
+.banner-page p {
+  color: #FFF;
+  text-transform: capitalize;
+}
+
+
+.sec-title strong {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.sec-title p {
+  color: #a7a9ce;
+  font-size: 1.2rem;
+}

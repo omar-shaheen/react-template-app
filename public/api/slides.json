@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "imgs/slides/1.jpg",
+    "title": "decore interiors",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, distinctio impedit eos facilis sint numquam?"
+  },
+  {
+    "id": 2,
+    "image": "imgs/slides/2.jpg",
+    "title": "decore interiors 2",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, distinctio impedit eos facilis sint numquam?"
+  },
+  {
+    "id": 3,
+    "image": "imgs/slides/3.jpg",
+    "title": "decore interiors 3",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, distinctio impedit eos facilis sint numquam?"
+  }
+]
